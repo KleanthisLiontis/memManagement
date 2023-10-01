@@ -1,7 +1,7 @@
 fn main() {
     let a = 75;
-    let result = stack_only(a);
-    dbg!(result);
+    // let result = stack_only(a);
+    // dbg!(result);
  
     println!("Small function test OG weight:{} and adjusted Mars weight:{}", a, you_on_mars(a));
 }
