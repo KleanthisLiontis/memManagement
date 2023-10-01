@@ -1,4 +1,8 @@
+use std::io;
+
 fn main() {
+    let mut input = String::new();
+    io::stdin().read_line(&mut input);
     let a = 75;
     // let result = stack_only(a);
     // dbg!(result);
